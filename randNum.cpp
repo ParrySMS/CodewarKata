@@ -46,5 +46,6 @@ int main() {
 	cout<<endl;
 	cout<<"result:"<<arr[key]<<endl;
 
+	delete[]  arr;
 	return 0;
 }
