@@ -1,11 +1,10 @@
 #include <iostream>
-#include <math.h>
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
 
-const int LEN = 20;
+const int LEN = 21;
 const int KEY_INDEX = -1;
 
 int main() {
