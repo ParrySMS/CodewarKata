@@ -37,3 +37,17 @@ function isOp($str1,$str2){
    
    return false;
 }
+
+//solution
+//function dirReduc($arr) {
+//    $ops = ['NORTH' => 'SOUTH', 'SOUTH' => 'NORTH', 'EAST' => 'WEST', 'WEST' => 'EAST'];
+//    $stack = [];
+//    foreach ($arr as $k => $v) {
+//        if (end($stack) == $ops[$v]) {
+//            array_pop($stack);
+//        } else {
+//            $stack[] = $v;
+//        }
+//    }
+//    return $stack;
+//}
