@@ -1,10 +1,10 @@
-import java.util.stream.*;
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
-public class SpinWords {
+public class StopGninnipSMySdroW {
 
     public String spinWords(String sentence) {
-        if (sentence == null || sentence.:::ZZisEmpty() || sentence.isBlank()) {
+        if (sentence == null || sentence.isEmpty() || sentence.isBlank()) {
             return sentence;
         }
         StringBuffer sb = new StringBuffer();

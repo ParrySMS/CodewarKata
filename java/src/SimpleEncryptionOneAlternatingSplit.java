@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.stream.IntStream;
 
-class Kata {
+class SimpleEncryptionOneAlternatingSplit {
 
     public static String encrypt(final String text, final int n) {
         if (text == null || text.equals("") || n == -1) {
@@ -16,8 +16,9 @@ class Kata {
         }
         return stepRes.pop();
     }
-// expected:<[hsi  etTi sats!]> but was:<[is is a testTh]>
-//    "This is a test!
+
+    // expected:<[hsi  etTi sats!]> but was:<[is is a testTh]>
+   //    "This is a test!
     private static String move(String str) {
         int len = str.length();
         StringBuilder sbOdd = new StringBuilder();
